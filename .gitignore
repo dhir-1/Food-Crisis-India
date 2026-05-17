@@ -1,0 +1,4 @@
+*.csv
+!data/
+!data/cleaned/
+!data/cleaned/*.csv

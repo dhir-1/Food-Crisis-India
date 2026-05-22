@@ -2,3 +2,10 @@
 !data/
 !data/cleaned/
 !data/cleaned/*.csv
+
+__pycache__/
+*.pyc
+.streamlit/
+models/
+notebooks/03_ml_model.py
+notebooks/03_ml_models.ipynb

@@ -9,3 +9,10 @@ __pycache__/
 models/
 notebooks/03_ml_model.py
 notebooks/03_ml_models.ipynb
+
+# Auto-generated model weights (large binary, rebuilt via train_model.py)
+data/model.pkl
+
+# Allow model metrics and charts to be tracked
+!data/model_metrics.json
+!charts/

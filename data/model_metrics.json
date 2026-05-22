@@ -1,0 +1,60 @@
+{
+    "train_r2": 0.15774053174949576,
+    "train_mae": 0.051188034021935364,
+    "test_r2": -0.11844903125912642,
+    "test_mae": 0.03488712172712896,
+    "feature_importances": [
+        {
+            "feature": "price_growth_1m",
+            "importance": 0.3491013201718565
+        },
+        {
+            "feature": "price_growth_2m",
+            "importance": 0.14956095621621296
+        },
+        {
+            "feature": "avg_food_price",
+            "importance": 0.13373742549472126
+        },
+        {
+            "feature": "price_lag_3",
+            "importance": 0.1055294475660434
+        },
+        {
+            "feature": "price_lag_1",
+            "importance": 0.08971883355011262
+        },
+        {
+            "feature": "price_lag_2",
+            "importance": 0.04843212957493967
+        },
+        {
+            "feature": "rain_lag_1",
+            "importance": 0.035849323392978714
+        },
+        {
+            "feature": "underweight_rate",
+            "importance": 0.02848891620713721
+        },
+        {
+            "feature": "rainfall_mm",
+            "importance": 0.02799436209509026
+        },
+        {
+            "feature": "yield_ton_per_hectare",
+            "importance": 0.014135268833531911
+        },
+        {
+            "feature": "rain_lag_2",
+            "importance": 0.007591727482547177
+        },
+        {
+            "feature": "stunting_rate",
+            "importance": 0.006069140260018251
+        },
+        {
+            "feature": "anaemia_rate",
+            "importance": 0.0037911491548100282
+        }
+    ]
+}

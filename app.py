@@ -325,8 +325,8 @@ def main() -> None:
             # Model performance section
             col_stat1, col_stat2, col_stat3 = st.columns(3)
             col_stat1.metric("Validation Split Method", "Chronological Out-of-Time")
-            col_stat2.metric("Out-of-Time Test MAE", f"{metrics['test_mae']*100:.2f}% Growth Error")
-            col_stat3.metric("Train/Test Generalization Gap", f"{(metrics['train_mae'] - metrics['test_mae'])*100:.2f}% (No Overfitting)")
+            col_stat2.metric("Out-of-Time Test MAE", f"₹{metrics['test_mae']:.2f}/kg Price Error")
+            col_stat3.metric("Train/Test Generalization Gap", f"₹{(metrics['train_mae'] - metrics['test_mae']):.2f}/kg (No Overfitting)")
 
             st.markdown("### 1. State-Specific 3-Month Price Growth Forecast")
             selected_ml_state = st.selectbox("Select State to Forecast", sorted(master["state"].unique().tolist()))

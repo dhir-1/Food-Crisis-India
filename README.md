@@ -88,7 +88,3 @@ The dashboard uses an **exploratory heuristic risk score** that combines:
 - higher nutrition burden
 
 It is meant for monitoring and ranking, not as a production crisis label.
-
-## Resume-Friendly Summary
-
-Built a state-level food distress early warning prototype for India by integrating public datasets on food prices, rainfall, crop productivity, and nutrition; developed a cleaned monthly panel, exploratory charts, and an interactive Streamlit dashboard for vulnerability monitoring.
